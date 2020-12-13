@@ -110,7 +110,7 @@ namespace HospitalMgmt.Migrations
                 table: "PatientDetails",
                 column: "Appointment_objAppointment_Id");
 
-            var sqlFile = Path.Combine(".\\DatabaseScript", @"data.sql");
+            var sqlFile = Path.Combine(".\\DataScript", @"SQLQuery1.sql");
             migrationBuilder.Sql(File.ReadAllText(sqlFile));
         }
 
